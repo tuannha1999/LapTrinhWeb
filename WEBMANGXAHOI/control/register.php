@@ -18,7 +18,7 @@ class Register
 			$dt=isset($_POST['sdt'])? $_POST['sdt']: '' ;
 			$gt= isset($_POST['gt'])? $_POST['gt']: '' ;
 			$dc='' ;
-			$hinh='';
+			$hinh='avatarmacdinh.jpg';
             if (isset($_POST['btnDK']) ) 
             {
 				if($username==''||$password==''||$ten==''||$ns==''||$dt==''||$gt=='')
@@ -41,7 +41,7 @@ class Register
     						{	
     							?>
     					<div class="DK">Đăng Ký Tài Khoản Thành Công 
-    						<a href="/index.php?ctrl=login&func=index" method="POST">Đăng Nhập Ngay?</a>  </div>
+    						<a href="/WEBMANGXAHOI/index.php?ctrl=login&func=index" method="POST">Đăng Nhập Ngay?</a>  </div>
     						  <?php
     						} 
     						else 
@@ -60,7 +60,7 @@ class Register
     					}
 					else 
 					{ ?>
-						<div class="DK">PASSWORD(ít nhất 8 kí tự bao gồm chữ cái và số) HOẶC SĐT KHÔNG HỢP LỆ!!!</div> 
+						<div class="DK">PASSWORD(ít nhất 8 kí tự bao gồm chữ cái và số) HOẶC SĐT KHÔNG HỢP LỆ!!</div> 
 						
 					<?php }
 				}	

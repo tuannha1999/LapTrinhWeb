@@ -34,7 +34,7 @@ class Login
 								
 									?>
 									<SCRIPT>
-										location.href="/mxh/index.php?ctrl=trangchu&func=Index";
+										location.href="/WEBMANGXAHOI/index.php?ctrl=trangchu&func=index";
 									</SCRIPT>
 									<?php
 									
@@ -59,7 +59,7 @@ class Login
 		if(isset($_SESSION['us']))
 		{
 			session_unset();
-			header("location: /mxh/index.php?ctrl=login&fnc=Index");
+			header("location: /WEBMANGXAHOI/index.php?ctrl=login&fnc=Index");
 		
 		}
 	}

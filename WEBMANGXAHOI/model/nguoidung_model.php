@@ -1,5 +1,5 @@
 <?php
-include "model/Db.php";
+include_once("model/db.php");
 class nguoidung_model extends Db
 {
     public function login($tentk,$mk)
@@ -22,4 +22,21 @@ class nguoidung_model extends Db
 	    $kq=$this->query("select count(*) as kt from nguoidung where tentk='$tentk'");
 		return $kq[0]['kt'];
     }
+    public function thongtin($tentk)
+    {
+        $kq=$this->query("select * from nguoidung where tentk=?",[$tentk]);
+        return $kq;
+    }
+    public function chinhsua($tentk,$ten,$ns,$gt,$sdt,$dc,$avatar)
+    {
+        $kq=$this->query("UPDATE nguoidung SET hoten='$ten', ngaysinh='$ns',gioitinh='$gt',sdt='$sdt', diachi='$dc', avatar='$avatar' 
+        WHERE tentk='$tentk'");
+        return $this->getNumRow($kq);
+    }
+    public function search($tentk)
+    {
+        $kq=$this->query("select * from nguoidung where hoten like '%$tentk%' ");
+        return $kq;
+    }
+       
 }

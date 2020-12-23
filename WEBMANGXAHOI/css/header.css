@@ -1,0 +1,286 @@
+#fixNav{
+    width: 260%;
+    height: 35px;
+    background-color: #00bfff;
+    display: block;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.5); /*Đổ bóng cho menu*/
+    position: fixed; /*Cho menu cố định 1 vị trí với top và left*/
+    top: 0; /*Nằm trên cùng*/
+    left: 0; /*Nằm sát bên trái*/
+    
+    z-index: 260000; /*Hiển thị lớp trên cùng*/
+  }
+  .btn-box button{
+    padding: 5px 5px;
+    border-radius: 2px;
+    background-color: #00bfff;
+    color: #ffffff;
+    border: none;
+    outline: none;
+}
+
+  #fixNav ul{
+    margin: 0;
+    padding: 0;
+  }
+  #fixNav ul li{
+    list-style:none inside;
+    width: auto;
+    float: left;
+    line-height: 35px; /*Cho text canh giữa menu*/
+    color: #fff;
+    padding: 0;
+    margin-right:10px;
+    position: relative;
+  }
+  
+
+  /*0000*/
+    #fixNav ul {
+    text-transform: uppercase;
+    white-space: nowrap; /*Cho chữ trong menu không bị wrap*/
+    padding: 0 20px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    /* margin-right: 90px; */
+    
+     color: #fff;
+    display: block;
+    font-size: 0.9em;
+    text-decoration: none; 
+   } 
+  /*0000*/
+
+ 
+  
+  #fixNav1 li a{
+    text-transform: uppercase;
+    white-space: nowrap; /*Cho chữ trong menu không bị wrap*/
+    /* padding: 0 20px; */
+     padding-left: 260px;
+    padding-right: 20px;
+    /* margin-right: 90px; */
+    
+    color: #fff;
+    display: block;
+    font-size: 0.9em;               
+    text-decoration: none;
+  }
+
+  
+  
+  #fixNav2  li a{
+    text-transform: uppercase;
+    white-space: nowrap; /*Cho chữ trong menu không bị wrap*/
+    padding: 0 20px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    /* margin-right: 90px; */
+    
+    
+    color: #fff;
+    display: block;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+  #fixNav3  li a{
+    text-transform: uppercase;
+    white-space: nowrap; /*Cho chữ trong menu không bị wrap*/
+    padding: 0 20px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    /* margin-right: 90px; */
+    
+    color: #fff;
+    display: block;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+  #fixNav4  li a{
+    text-transform: uppercase;
+    white-space: nowrap; /*Cho chữ trong menu không bị wrap*/
+    padding: 0 20px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    /* margin-right: 90px; */
+    
+    color: #fff;
+    display: block;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+  #fixNav5  li a{
+    text-transform: uppercase;
+    white-space: nowrap; /*Cho chữ trong menu không bị wrap*/
+    padding: 0 20px;
+    /* padding-left: 30px;
+    padding-right: 30px; */
+    /* margin-right: 90px; */
+    
+    color: #fff;
+    display: block;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+  #fixNav6  li a{
+    text-transform: uppercase;
+    white-space: nowrap; /*Cho chữ trong menu không bị wrap*/
+    /* padding: 0 20px; */
+    padding-left: 20px;
+    padding-right: 260px;
+    
+    color: #fff;
+    display: block;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+  /*CSS Style cho Submenu*/
+  #fixNav ul li ul {
+    position: absolute;
+    width: auto;
+    display: none;
+    background-color: #00bfff;
+    border-bottom: 3px solid #0082bb;
+    padding-left: 5px;
+  }
+  
+  #fixNav ul li ul li{
+    display: block;
+    padding:0;
+    margin: 0;
+    float: none; /*Bỏ float cho li cấp thứ 2*/
+  }
+  /* Hover cho submenu */
+  #fixNav ul li:hover {
+    /* Hover thì li sẽ đổi màu*/
+    background-color: #00bfff;
+  }
+  #fixNav ul li:hover ul{
+    /*Display ra submenu*/
+    display: block;
+  }
+  .search
+  {
+    font-weight: bold;
+    height: 100px;
+    width: 300px;
+     margin-bottom: 10px;
+    margin-left: 400px;
+    font-size: 20px; 
+    line-height: 15px; 
+    text-align: center; 
+    color: black;
+    background-color: while ;
+    border: 2px outset #154cb1;
+
+  }
+ .avatar
+ {
+  display: block;
+  background-color: #f2f2f2;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+  background-size: cover;
+  width: 80px;
+  margin-right: .5rem!important;
+ }
+
+.content
+{
+  height: 150px;
+  width: 205px;
+  
+  padding-top: 0px;
+  padding-left: 25px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+   margin-top: -200px; 
+   margin-left: 0px;
+   margin-bottom: 5px;
+  background-color :white;
+  /* font-size: 15px; */
+  
+
+  
+ }
+ .bodersearch{
+  height: -500px;
+  width: 200px;
+  margin-left: 220px;
+  margin-top: -200px;
+  margin-bottom: 20px;
+  background-color: salmon;
+ /*  padding-top: -20px; */
+  
+ }
+
+.tableleft {
+  background-color: #ffffff;
+  margin-left: 10px;
+  margin-top: 50px;
+  height: 400px;
+  width: 300px;
+
+}
+
+
+.tableright {
+  background-color: while ;
+  margin-top: -560px; 
+  margin-left: 1115px;
+  height: 550px;
+  width: 200px;
+}
+
+.infor{
+  height: 500px;
+  width: 820px;
+  padding-top: 10px;
+  margin-top: 60px; 
+   margin-left: 258px;
+   background-color: rgb(245, 247, 255);
+   border: 2px solid rebeccapurple;
+}
+.chinhsua{
+  height: 0px;
+  width: 200px;
+   /* padding-top: 200px;  */
+   margin-top: -50px; 
+   margin-left: 258px;
+  background-color: rgb(194, 48, 48);
+  
+
+}
+.dangbai{
+  margin-top: 60px;
+  margin-left: 400px ;
+  padding-top: 10px;
+  height: 400px;
+  width: 500px;
+  background-color: rgb(245, 247, 255);
+  border: 2px solid rebeccapurple;
+}
+
+.baidang{
+  margin-top: 70px;
+  margin-left: 400px ;
+  padding-top: 30px;
+  padding-left: 30px;
+/*   padding-right: 30px;
+ */  height: 320px;
+  width: 400px;
+  background-color: rgb(238, 236, 236);
+  border: 2px solid rgb(10, 173, 238);
+}
+.baidang1{
+  margin-top: 70px;
+  margin-left: 400px ;
+  padding-top: 30px;
+  padding-left: 30px;
+/*   padding-right: 30px;
+ */  height: 100px;
+  width: 400px;
+  background-color: rgb(238, 236, 236);
+  border: 2px solid rgb(10, 173, 238);
+}

@@ -6,7 +6,7 @@
 }
 .banner{
     font-family:   'Serif', Georgia, 'Times New Roman', Times, serif;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-left: 10%;
     font-weight: bold;
     text-align: center;
@@ -16,7 +16,7 @@
 .DN
 {
     margin-left: 5px;
-    /* margin-top: 0px; */
+     margin-top: 10px;
     color: red;
    text-align:  center;
 }

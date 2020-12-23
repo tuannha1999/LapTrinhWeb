@@ -16,7 +16,7 @@
     </head>
     <body>
 	
-	link Github: https://github.com/tuannha1999/LapTrinhWeb.git
+	
     <form action="" method="POST">
         <div class="banner">
         <label > CHÀO MỪNG BẠN ĐẾN VỚI MẠNG XÃ HỘI</label>
@@ -31,7 +31,7 @@
                 <label style="margin-left: -150px;">PassWord</label>
                 <input type="password" name="mk">    
                 <input id="submit" type="submit" name="btnDN" value="ĐĂNG NHẬP">
-                <a style="margin-top:10px;" href="/mxh/index.php?ctrl=register&func=Index" method="POST ">Đăng ký tài khoản</a>
+                <a style="margin-top:10px;" href="/WEBMANGXAHOI/index.php?ctrl=register&func=Index" method="POST ">Đăng ký tài khoản</a>
             </div>                
         </div>
         </form>

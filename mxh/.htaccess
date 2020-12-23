@@ -1,8 +1,0 @@
-
-RewriteEngine on
-Options -Indexes
-#RewriteRule ^([a-zA-Z0-9-_]+)\/([a-zA-Z0-9-_]+)\/([a-zA-Z0-9-_]+)-([a-zA-Z0-9]+).html$ index.php?ctrl=$1&func=$2&id=$4
-#RewriteRule ^([a-zA-Z0-9-_]+)\/([a-zA-Z0-9-_]+)\/([a-zA-Z0-9-_]+).html$ index.php?ctrl=$1&func=$2&id=$3
-#RewriteRule ^(.*)\.html$ $1.php 
-RewriteRule ^gioi-thieu.html$ index.php?ctrl=sach&page=2
-
